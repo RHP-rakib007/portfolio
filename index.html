@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK-007</RK-007></title>
+    <link rel="stylesheet" href="RK-007.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
+<!-- -------------------favicon----------- -->
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="images/favicon_io/site.webmanifest">
+<!-- --------------------------------------------font------------------------------------- -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- -=-=-=-=--=----=-=-=-=-=-=-==-=-=-=-head text animation cdn-=-=--=-=--=-=--=--=-=-=-- -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+</head>
+<body>
+    <!-- ------------------head----------------- -->
+    <div id="header">
+        <div class="container">
+        <nav>
+        <a href="#">
+            <img src="images/LogoMakr-3E5hlL.png" class="logo">
+        </a>
+            <ul id="sidemenu">
+                <li><a href="#header" style="--i:1;">Home</a></li>
+                <li><a href="#about" style="--i:2;">About</a></li>
+                <li><a href="#portfolio" style="--i:3;">Service</a></li>
+                <li><a href="#contact" style="--i:4;">Contact</a></li>
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        </div>
+        <!-- ======head content===== -->
+        <div class="content">
+            <h2>I'M</h2>
+            <h1><span class="auto-input"></span></h1>
+            <a href="#" style="--i:6;"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" style="--i:7;"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" style="--i:8;"><i class="fa-brands fa-twitter"></i></a>
+            <br>
+            <!-- <button>More about me</button> -->
+        </div>
+    </div>
+
+    <!-- -------------------About me---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="images/about.jpg">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-titles">About Me</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque atque impedit perspiciatis quasi ab, aliquid fuga consequatur quia quas, corporis dolores ea, similique iste! Unde sint explicabo et veniam esse?</p>
+
+                    <div class="tab-titles">
+                        <div class="tab-links  active-link" onclick="opentab('education')">Education</div>
+                        <div class="tab-links" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experiance')">Experiance</div>
+                    </div>
+                    <div class="tab-content  active-tab" id="education">
+                        <ul>
+                            <li><span>SSC</span><br>From Milestone School & Collage</li>
+                            <li><span>HSC</span><br>From Milestone School & Collage</li>
+                            <li><span>BSC in CSE</span><br>From East West University</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="skills">
+                        <div class="bar"><i style="color: #e34c26;" class="fa-brands fa-html5"></i>
+                            <div class="info">
+                                <span>HTML</span>
+                            </div>
+                            <div class="progress-line html">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar"><i style="color: #2965f1;" class="fa-brands fa-css3-alt"></i>
+                            <div class="info">
+                                <span>CSS</span>
+                            </div>
+                            <div class="progress-line css">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar"><i style="color: #f0db4f;" class="fa-brands fa-square-js"></i>
+                            <div class="info">
+                                <span>Javascript</span>
+                            </div>
+                            <div class="progress-line javascript">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar"><i style="color: aquamarine;" class="fa-solid fa-globe"></i>
+                            <div class="info">
+                                <span>Networking</span>
+                            </div>
+                            <div class="progress-line network">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar"><i class="fa-solid fa-ranking-star"></i>
+                            <div class="info">
+                                <span>SEO</span>
+                            </div>
+                            <div class="progress-line seo">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="experiance">
+                        <div class="circle">
+                        <!-- <h1 class="heading1">profesional skills</h1> -->
+                        <div class="radial-bars">
+
+                                <div class="radial-bar">
+                                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                                </svg>
+                                <div class="percentage">100%</div>
+                                <div class="exp-text">Creativity</div>
+                                </div>
+
+                            <div class="radial-bar">
+                                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                    <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                                </svg>
+                                <div class="percentage">70%</div>
+                                <div class="exp-text">communication</div>
+                            </div>
+                            <div class="radial-bar">
+                                
+                                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                    <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                                </svg>
+                                <div class="percentage">85%</div>
+                                <div class="exp-text">Problem solving</div>
+                            </div>
+                            <div class="radial-bar">
+                                
+                                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                    <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                                </svg>
+                                <div class="percentage">90%</div>
+                                <div class="exp-text">Team work</div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------------My services------------------------------------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Developing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque temporibus impedit vel laboriosam necessitatibus earum hic possimus officia nesciunt. Ex ab minus, ea velit ipsum quo ullam aliquam architecto numquam!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-slack"></i>
+                    <h3>SEO</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque temporibus impedit vel laboriosam necessitatibus earum hic possimus officia nesciunt. Ex ab minus, ea velit ipsum quo ullam aliquam architecto numquam!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-hackerrank"></i>
+                    <h3>Cyber Security</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque temporibus impedit vel laboriosam necessitatibus earum hic possimus officia nesciunt. Ex ab minus, ea velit ipsum quo ullam aliquam architecto numquam!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------------contact-------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>rakibulhasanprince100@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+880 1755-052510</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="images/my-cv.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; RK007.</p>
+            </div>
+        </div>
+    </div>
+    <!--==================javascript======================-->
+    <script src="RK-007.js"></script>
+
+</body>
+</html>
